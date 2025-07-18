@@ -1,0 +1,89 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solo Tú</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ffe4e1, #ffb6c1);
+      color: #333;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #d6336c;
+    }
+    .section {
+      padding: 40px 20px;
+      background: #fff0f5;
+      margin: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    .hidden-msg {
+      cursor: pointer;
+      color: #888;
+      font-style: italic;
+    }
+    .gallery img {
+      width: 150px;
+      border-radius: 20px;
+      margin: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    footer {
+      font-size: 0.9em;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Para la chica más increíble del universo</h1>
+    <p class="hidden-msg" onclick="this.innerHTML='Sí, tú ❤️'">Haz clic aquí...</p>
+  </header>
+
+  <div class="section">
+    <h2>🌟 Cosas que amo de ti</h2>
+    <ul style="list-style: none; padding: 0;">
+      <li>Tu risa, que es mi sonido favorito.</li>
+      <li>La forma en que me miras.</li>
+      <li>Tu locura hermosa.</li>
+      <li>Cómo haces que todo tenga sentido.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📸 Momentos nuestros</h2>
+    <div class="gallery">
+      <img src="https://placekitten.com/200/200" alt="foto1">
+      <img src="https://placekitten.com/201/200" alt="foto2">
+      <img src="https://placekitten.com/202/200" alt="foto3">
+    </div>
+    <p>(Reemplaza estas fotos con las de ustedes 😌)</p>
+  </div>
+
+  <div class="section">
+    <h2>💌 Carta para ti</h2>
+    <p>
+      Desde que llegaste a mi vida, todo cambió. No hay día que no agradezca por tenerte, por tu ternura,
+      por tu paciencia, por tu forma única de hacerme sentir en casa. Esta página es solo un pedacito de lo que significas para mí.
+    </p>
+  </div>
+
+  <footer>
+    Hecho con 💖 por quien más te ama.
+  </footer>
+</body>
+</html>
